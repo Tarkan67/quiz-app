@@ -1,6 +1,6 @@
 export default {
-  title: "Card",
+  title: "Card-question",
 };
 
 export const Default = () => /*html */ `
-<article class="card">hi!</article>`;
+<article class="Card-question">hi!</article>`;
