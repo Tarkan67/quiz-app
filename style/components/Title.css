@@ -1,0 +1,5 @@
+.Title {
+  text-align: center;
+  background-color: var(--background-color);
+  box-shadow: 0 1px 8px rgb(87, 83, 83);
+}

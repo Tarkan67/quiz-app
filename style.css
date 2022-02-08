@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import "style/variables.css";
-@import "style/util.css";
+@import "style/utils.css";
 @import "style/variables.css";
 @import "style/base.css";
 @import "style/components/Card-question.css";
