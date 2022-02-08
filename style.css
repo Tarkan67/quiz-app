@@ -3,7 +3,7 @@
 @import "style/utils.css";
 @import "style/variables.css";
 @import "style/base.css";
-@import "style/components/Card-question.css";
+@import "style/components/Card.css";
 @import "style/components/Footer-Nav.css";
 @import "style/components/Formular.css";
 @import "style/components/Profile.css";
