@@ -1,0 +1,35 @@
+.Footer {
+  box-shadow: 0 1px 8px rgb(87, 83, 83);
+  background-color: var(--background-color);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home {
+  list-style: none;
+  display: inline-block;
+  grid-column: 1/2;
+  justify-self: center;
+}
+
+.bookmarks {
+  list-style: none;
+  display: inline-block;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+.create {
+  list-style: none;
+  display: inline-block;
+  grid-column: 3/4;
+  justify-self: center;
+}
+
+.profile {
+  list-style: none;
+  display: inline-block;
+  grid-column: 4/5;
+  justify-self: center;
+}

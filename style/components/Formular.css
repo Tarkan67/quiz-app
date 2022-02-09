@@ -1,0 +1,10 @@
+.Formular {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+form * {
+  display: block;
+  margin: 0.5rem;
+}

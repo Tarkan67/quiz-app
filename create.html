@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Create</title>
+    <!-- Title -->
+    <header class="Title">
+      <h1>Create</h1>
+    </header>
+  </head>
+  <body>
+    <div class="Formular">
+      <h2>Create your own Questions</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+        molestias asperiores velit fugiat qui, suscipit quibusdam ullam
+        voluptates ipsum harum quaerat omnis at autem accusamus tempore id
+        voluptatem quas quam.
+      </p>
+      <form aria-labelledby="form-heading" aria-describedby="form-description">
+        <fieldset>
+          <legend>Question</legend>
+          <label for="question">Your Question:</label>
+          <textarea
+            name="question"
+            id="question"
+            placeholder="Ask away..."
+            rows="5"
+            cols="40"
+            maxlength="60"
+          ></textarea>
+          <label for="answer">Your Answer:</label>
+          <textarea
+            name="answer"
+            id="answer"
+            placeholder="Answer away..."
+            rows="5"
+            cols="40"
+            maxlength="60"
+          ></textarea>
+          <label for="tags">Tags:</label>
+          <input type="text" name="tags" id="tags" required />
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- Footer Nav -->
+  </body>
+  <footer class="Footer sticky--bottom">
+    <ul class="footer-grid">
+      <li class="home">
+        <a href="index.html"><img src="images/home.png" /></a>
+      </li>
+      <li class="bookmarks">
+        <a href="#Bookmarks"><img src="images/bookmark-dark.png" /></a>
+      </li>
+      <li class="create">
+        <a href="create.html"><img src="images/question.png" /></a>
+      </li>
+      <li class="profile">
+        <a href="#Profile"><img src="images/profile.png" /></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="scripts.js"></script>
+</html>

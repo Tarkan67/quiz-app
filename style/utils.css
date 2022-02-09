@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d2e9e3;
+}
+
 .center-text {
   text-align: center;
 }
