@@ -13,3 +13,7 @@
 .center-text {
   text-align: center;
 }
+
+.highlight {
+  background-color: hsl(186, 35%, 68%);
+}
