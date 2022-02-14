@@ -12,40 +12,21 @@
     </header>
   </head>
   <body>
-    <div class="Formular">
-      <h2>Create your own Questions</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-        molestias asperiores velit fugiat qui, suscipit quibusdam ullam
-        voluptates ipsum harum quaerat omnis at autem accusamus tempore id
-        voluptatem quas quam.
+    <div class="Profile">
+      <img src="images/profile.png" />
+      <h2 class="profile--title">Profile</h2>
+      <p class="profile--info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+        nulla? Inventore fuga vitae minima tenetur quisquam, voluptates, qui
+        amet, dolor accusantium aut omnis odit animi reiciendis? Atque illo
+        error blanditiis.
       </p>
-      <form aria-labelledby="form-heading" aria-describedby="form-description">
-        <fieldset>
-          <legend>Question</legend>
-          <label for="question">Your Question:</label>
-          <textarea
-            name="question"
-            id="question"
-            placeholder="Ask away..."
-            rows="5"
-            cols="40"
-            maxlength="60"
-          ></textarea>
-          <label for="answer">Your Answer:</label>
-          <textarea
-            name="answer"
-            id="answer"
-            placeholder="Answer away..."
-            rows="5"
-            cols="40"
-            maxlength="60"
-          ></textarea>
-          <label for="tags">Tags:</label>
-          <input type="text" name="tags" id="tags" required />
-          <button type="submit">Submit</button>
-        </fieldset>
-      </form>
+      <div class="profile--tags">
+        <div class="profile--border">Tag1</div>
+        <div class="profile--border">Tag2</div>
+        <div class="profile--border">Tag3</div>
+      </div>
+      <button class="profile--log-out">Logout</button>
     </div>
     <!-- Footer Nav -->
   </body>
