@@ -17,3 +17,7 @@
 .highlight {
   background-color: hsl(186, 35%, 68%);
 }
+
+.hide {
+  display: none !important;
+}
