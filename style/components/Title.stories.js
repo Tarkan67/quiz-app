@@ -1,5 +1,5 @@
 export default {
-  title: "Title",
+  title: 'Title',
 };
 
 export const Default = () => /*html */ `
