@@ -1,11 +1,7 @@
-const createHtml = document.querySelector('[data-js=createHtml]');
-export { createHtml };
-
 const textArea1 = document.querySelector('[data-js=textArea]');
 const textAreaCount = document.querySelector('[data-js=textAreaCount]');
 
 textArea1.addEventListener('input', () => {
-  textArea1.value.toUpperCase();
   textAreaCount.textContent = textArea1.value.length;
   return textAreaCount.textContent;
 });

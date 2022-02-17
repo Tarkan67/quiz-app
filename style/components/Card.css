@@ -47,3 +47,11 @@
   grid-row: auto;
   justify-self: center;
 }
+
+.bookmark-src-white {
+  content: url('/images/bookmark-white.png');
+}
+
+.bookmark-src-black {
+  content: url('/images/bookmark-dark.png');
+}
