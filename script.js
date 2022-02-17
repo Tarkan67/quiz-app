@@ -1,18 +1,19 @@
-const bookMark1 = document.querySelector('#Bookmark1');
-const answer1Btn = document.querySelector('.answer1-btn');
+const answerButton1 = document.querySelector('[data-js=answerButton1]');
 const answer1 = document.querySelector('.answer1');
 
-var img1 = 'http://127.0.0.1:3000/images/bookmark-white.png';
-var img2 = '<img id="Bookmark1" src="images/bookmark-dark.png">';
-
-bookMark1.addEventListener('click', () => {
-  if (bookMark1.src == img1) {
-    document.getElementById('Bookmark1').src = 'images/bookmark-dark.png';
+const bookmark1 = document.querySelector('[data-js=bookmark1]');
+// Bookmark
+bookmark1.addEventListener('click', () => {
+  const imgWhite = 'http://127.0.0.1:5500/images/bookmark-white.png';
+  const imgDark = 'images/bookmark-white.png';
+  if (bookmark1.src == imgWhite) {
+    bookmark1.src = 'images/bookmark-dark.png';
   } else {
-    document.getElementById('Bookmark1').src = 'images/bookmark-white.png';
+    bookmark1.src = 'images/bookmark-white.png';
   }
 });
 
-answer1Btn.addEventListener('click', () => {
+// Show Answer
+answerButton1.addEventListener('click', () => {
   answer1.classList.toggle('hide');
 });

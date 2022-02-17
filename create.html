@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Create</title>
+    <script src="/createScript.js" defer></script>
     <!-- Title -->
     <header class="Title">
       <h1>Create</h1>
@@ -24,14 +25,17 @@
         <fieldset>
           <legend>Question</legend>
           <label for="question">Your Question:</label>
-          <textarea
+          <input
+            type="text"
             name="question"
             id="question"
             placeholder="Ask away..."
             rows="5"
             cols="40"
             maxlength="60"
-          ></textarea>
+            data-js="textArea"
+          ></input>
+          <span data-js="textAreaCount"></span>
           <label for="answer">Your Answer:</label>
           <textarea
             name="answer"
@@ -40,8 +44,9 @@
             rows="5"
             cols="40"
             maxlength="60"
+            data-js="textAreaCount"
           ></textarea>
-          <label for="tags">Tags:</label>
+          <label for="tags" data-js="event1">Tags:</label>
           <input type="text" name="tags" id="tags" required />
           <button type="submit">Submit</button>
         </fieldset>
