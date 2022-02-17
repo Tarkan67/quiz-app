@@ -32,10 +32,13 @@
             placeholder="Ask away..."
             rows="5"
             cols="40"
-            maxlength="60"
+            maxlength="120"
             data-js="textArea"
           ></textarea>
-          <span data-js="textAreaCount"></span>
+          <div class="counter-container">
+            <span data-js="textAreaCount"></span>
+            <p>/120</p>
+          </div>
           <label for="answer">Your Answer:</label>
           <textarea
             name="answer"
@@ -54,7 +57,7 @@
     </div>
     <!-- footer Nav -->
   </body>
-  <footer class="footer sticky-bottom">
+  <footer class="footer">
     <ul class="footer-grid">
       <li class="home">
         <a href="index.html"><img src="images/home.png" alt="home" /></a>
@@ -67,12 +70,11 @@
       <li class="create highlight">
         <a href="create.html"><img src="images/question.png" alt="create" /></a>
       </li>
-      <li class="profile">
+      <li class="profiles">
         <a href="profile.html"
           ><img src="images/profile.png" alt="profile"
         /></a>
       </li>
     </ul>
   </footer>
-  <script src="scripts.js"></script>
 </html>

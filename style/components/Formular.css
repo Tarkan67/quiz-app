@@ -6,3 +6,7 @@ form * {
   display: block;
   margin: 0.5rem;
 }
+
+.counter-container {
+  display: flex;
+}
