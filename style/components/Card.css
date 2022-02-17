@@ -1,19 +1,21 @@
-.Card {
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px 0 #000006;
   border-radius: 0.35rem;
   margin: 20%;
   padding: 0.6em;
   position: relative;
 }
+
 .bookmark {
   width: 3rem;
   position: absolute;
   right: 0.3%;
   top: -7%;
 }
+
 .question {
   grid-column: 1/2;
   grid-row: 1/2;

@@ -1,8 +1,8 @@
-.Profile {
+.profile {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px 0 #000006;
   border-radius: 0.35rem;
   margin: 20%;
   padding: 0.6em;

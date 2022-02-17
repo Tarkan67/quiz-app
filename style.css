@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import 'style/variables.css';
 @import 'style/utils.css';
-@import 'style/variables.css';
 @import 'style/base.css';
-@import 'style/components/Card.css';
-@import 'style/components/Footer.css';
-@import 'style/components/Formular.css';
-@import 'style/components/Profile.css';
-@import 'style/components/Title.css';
-/* colorhunt link https://colorhunt.co/palette/2f5d625e8b7ea7c4bcdfeeea */
+@import 'style/components/card.css';
+@import 'style/components/footer.css';
+@import 'style/components/formular.css';
+@import 'style/components/profile.css';
+@import 'style/components/title.css';

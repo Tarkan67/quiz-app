@@ -1,9 +1,9 @@
 export default {
-  title: 'Title',
+  title: 'title',
 };
 
 export const Default = () => /*html */ `
-<header class="Title">
+<header class="title">
       <h1>Quiz-APP</h1>
     </header>
   </head>

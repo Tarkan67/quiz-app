@@ -1,8 +1,5 @@
-.Formular {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 4%;
-  margin-bottom: 10%;
+.formular {
+  margin: 4% 10% 10%;
 }
 
 form * {
